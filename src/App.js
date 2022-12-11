@@ -47,7 +47,7 @@ export const App = () => {
           background={false}
           responsive={true}
           autoCropArea={1}
-          checkOrientation={false} // https://github.com/fengyuanchen/cropperjs/issues/671
+          checkOrientation={false}
           onInitialized={(instance) => {
             setCropper(instance);
           }}
@@ -77,7 +77,7 @@ export const App = () => {
             </button>
           </h1>
           <img
-            style={{ width: "100%" }}
+            style={{ width: "200px" }}
             src={cropData}
             alt="Cropped item will appear here..."
           />
