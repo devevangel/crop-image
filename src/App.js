@@ -31,8 +31,8 @@ export const App = () => {
   return (
     <div>
       <div style={{ width: "100%" }}>
+        <h3>Demo Crop Image before upload</h3>
         <input type="file" onChange={onChange} />
-
         <br />
         <br />
         <Cropper
